@@ -20,3 +20,15 @@ notasdb=# \c postgres
 You are now connected to database "postgres" as user "jota".
 postgres=# ALTER DATABASE notasdb OWNER TO notasdbadmin;
 ````
+
+### crear superuser
+```
+python3 manage.py createsuperuser
+email: admin@gmail.com
+password: notasdbadmin123
+```
+
+### Instalar JWT
+```
+pip install djangorestframework-simplejwt
+```
